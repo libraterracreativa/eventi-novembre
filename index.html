@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libra - Eventi Novembre 2025</title>
+    <title>Libra - Eventi Dicembre 2025</title>
     <style>
         * {
             margin: 0;
@@ -33,188 +33,11 @@
         }
 
         .nav.scrolled {
-            background: rgba(234, 228, 206, 0.95);
-            backdrop-filter: blur(20px);
-            padding: 15px 0;
+            background: rgba(234, 228, 206, 0.96);
+            backdrop-filter: blur(18px);
+            padding: 14px 0;
             border-bottom: 1px solid rgba(75, 80, 49, 0.1);
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .hero-section {
-            height: 100vh;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            background: linear-gradient(135deg, #EAE4CE 0%, #D3BA8F 100%);
-        }
-
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="%239A6E0E" opacity="0.1"/><circle cx="80" cy="40" r="1.5" fill="%23BB823A" opacity="0.1"/><circle cx="40" cy="80" r="1" fill="%23B98B0D" opacity="0.1"/></svg>');
-            opacity: 0.3;
-            animation: float 20s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0) translateX(0); }
-            33% { transform: translateY(-20px) translateX(10px); }
-            66% { transform: translateY(10px) translateX(-10px); }
-        }
-
-        .hero-content {
-            text-align: center;
-            z-index: 2;
-            position: relative;
-            max-width: 900px;
-            padding: 0 30px;
-            animation: fadeInUp 1s ease;
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .hero-logo {
-            font-size: clamp(4rem, 10vw, 7rem);
-            font-weight: 300;
-            color: #9A6E0E;
-            margin-bottom: 20px;
-            letter-spacing: -0.03em;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .hero-subtitle {
-            font-size: clamp(1rem, 2vw, 1.3rem);
-            color: #4B5031;
-            opacity: 0.8;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            margin-bottom: 40px;
-        }
-
-        .hero-text {
-            font-size: clamp(1.1rem, 2vw, 1.4rem);
-            line-height: 1.8;
-            color: #4B5031;
-            margin-bottom: 50px;
-            font-weight: 300;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .hero-text em {
-            font-style: normal;
-            color: #9A6E0E;
-            font-weight: 400;
-        }
-
-        .hero-cta {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .cta-button {
-            background: linear-gradient(135deg, #9A6E0E 0%, #BB823A 100%);
-            color: white;
-            padding: 18px 40px;
-            border: none;
-            border-radius: 30px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 30px rgba(154, 110, 14, 0.3);
-            display: inline-block;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(154, 110, 14, 0.4);
-        }
-
-        .cta-button.secondary {
-            background: transparent;
-            color: #9A6E0E;
-            border: 2px solid #9A6E0E;
-            box-shadow: none;
-        }
-
-        .cta-button.secondary:hover {
-            background: #9A6E0E;
-            color: white;
-        }
-
-        .scroll-indicator {
-            position: absolute;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            animation: bounce 2s infinite;
-            cursor: pointer;
-        }
-
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
-            40% { transform: translateX(-50%) translateY(-10px); }
-            60% { transform: translateX(-50%) translateY(-5px); }
-        }
-
-        .welcome-section {
-            padding: 100px 30px;
-            background: white;
-            position: relative;
-        }
-
-        .welcome-container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .welcome-title {
-            font-size: clamp(2.5rem, 5vw, 3.5rem);
-            color: #9A6E0E;
-            margin-bottom: 40px;
-            font-weight: 300;
-            text-align: center;
-        }
-
-        .welcome-text {
-            font-size: 1.1rem;
-            line-height: 1.9;
-            color: #4B5031;
-            text-align: justify;
-            margin-bottom: 30px;
-        }
-
-        .welcome-text strong {
-            color: #9A6E0E;
-            font-weight: 500;
-        }
-
-        .signature {
-            text-align: right;
-            font-style: italic;
-            color: #9A6E0E;
-            font-size: 1.2rem;
-            margin-top: 40px;
+            box-shadow: 0 2px 18px rgba(0, 0, 0, 0.08);
         }
 
         .nav-container {
@@ -256,7 +79,7 @@
             font-size: 14px;
             padding: 8px 16px;
             border-radius: 20px;
-            transition: all 0.3s ease;
+            transition: all 0.25s ease;
             position: relative;
         }
 
@@ -281,7 +104,7 @@
             left: 0;
             right: 0;
             background: rgba(234, 228, 206, 0.98);
-            backdrop-filter: blur(20px);
+            backdrop-filter: blur(18px);
             z-index: 999;
             padding: 20px;
         }
@@ -299,80 +122,232 @@
             border-bottom: 1px solid rgba(75, 80, 49, 0.1);
         }
 
-        .floating-particles {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 1;
+        /* HERO DICEMBRE */
+
+        .hero-section {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: linear-gradient(135deg, #EAE4CE 0%, #D3BA8F 100%);
         }
 
-        .particle {
+        .hero-section::before {
+            content: '';
             position: absolute;
-            width: 4px;
-            height: 4px;
-            background: rgba(154, 110, 14, 0.3);
-            border-radius: 50%;
-            animation: float-particle 15s infinite linear;
+            inset: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="%239A6E0E" opacity="0.09"/><circle cx="80" cy="40" r="1.5" fill="%23BB823A" opacity="0.09"/><circle cx="40" cy="80" r="1" fill="%23B98B0D" opacity="0.08"/></svg>');
+            opacity: 0.28;
+            animation: float 20s ease-in-out infinite;
         }
 
-        @keyframes float-particle {
-            0% {
-                transform: translateY(100vh) rotate(0deg);
+        @keyframes float {
+            0%, 100% { transform: translateY(0) translateX(0); }
+            33% { transform: translateY(-16px) translateX(8px); }
+            66% { transform: translateY(10px) translateX(-8px); }
+        }
+
+        .hero-content {
+            text-align: center;
+            z-index: 2;
+            position: relative;
+            max-width: 900px;
+            padding: 0 30px;
+            animation: fadeInUp 1s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
                 opacity: 0;
+                transform: translateY(30px);
             }
-            10% {
+            to {
                 opacity: 1;
-            }
-            90% {
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(-100px) rotate(360deg);
-                opacity: 0;
+                transform: translateY(0);
             }
         }
 
-        .particle:nth-child(1) { left: 10%; animation-delay: -5s; }
-        .particle:nth-child(2) { left: 20%; animation-delay: -2s; }
-        .particle:nth-child(3) { left: 30%; animation-delay: -8s; }
-        .particle:nth-child(4) { left: 40%; animation-delay: -1s; }
-        .particle:nth-child(5) { left: 50%; animation-delay: -6s; }
-        .particle:nth-child(6) { left: 60%; animation-delay: -3s; }
-        .particle:nth-child(7) { left: 70%; animation-delay: -7s; }
-        .particle:nth-child(8) { left: 80%; animation-delay: -4s; }
-        .particle:nth-child(9) { left: 90%; animation-delay: -9s; }
+        .hero-logo {
+            font-size: clamp(4rem, 10vw, 7rem);
+            font-weight: 300;
+            color: #9A6E0E;
+            margin-bottom: 16px;
+            letter-spacing: -0.03em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.10);
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1rem, 2vw, 1.3rem);
+            color: #4B5031;
+            opacity: 0.85;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 34px;
+        }
+
+        .hero-month {
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.22em;
+            color: #4B5031;
+            opacity: 0.8;
+            margin-bottom: 10px;
+        }
+
+        .hero-text {
+            font-size: clamp(1.08rem, 2vw, 1.35rem);
+            line-height: 1.8;
+            color: #4B5031;
+            margin-bottom: 42px;
+            font-weight: 300;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-text em {
+            font-style: normal;
+            color: #9A6E0E;
+            font-weight: 400;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 18px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 26px;
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #9A6E0E 0%, #BB823A 100%);
+            color: white;
+            padding: 16px 34px;
+            border: none;
+            border-radius: 999px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.25s ease;
+            box-shadow: 0 10px 26px rgba(154, 110, 14, 0.28);
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 14px 34px rgba(154, 110, 14, 0.38);
+        }
+
+        .cta-button.secondary {
+            background: transparent;
+            color: #9A6E0E;
+            border: 2px solid #9A6E0E;
+            box-shadow: none;
+        }
+
+        .cta-button.secondary:hover {
+            background: #9A6E0E;
+            color: #fff;
+        }
+
+        .hero-caption {
+            font-size: 0.9rem;
+            color: #4B5031;
+            opacity: 0.78;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 26px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+            cursor: pointer;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-8px); }
+            60% { transform: translateX(-50%) translateY(-4px); }
+        }
+
+        /* SEZIONE BENVENUTO */
+
+        .welcome-section {
+            padding: 90px 30px 70px;
+            background: #FFFFFF;
+            position: relative;
+        }
+
+        .welcome-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .welcome-title {
+            font-size: clamp(2.5rem, 5vw, 3.4rem);
+            color: #9A6E0E;
+            margin-bottom: 32px;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .welcome-text {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: #4B5031;
+            text-align: justify;
+            margin-bottom: 24px;
+        }
+
+        .welcome-text strong {
+            color: #9A6E0E;
+            font-weight: 500;
+        }
+
+        .signature {
+            text-align: right;
+            font-style: italic;
+            color: #9A6E0E;
+            font-size: 1.15rem;
+            margin-top: 34px;
+        }
+
+        /* CONTAINER PRINCIPALE */
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background: linear-gradient(145deg, 
-                        rgba(254, 254, 254, 0.92) 0%, 
-                        rgba(250, 249, 246, 0.88) 100%);
+            background: linear-gradient(
+                145deg,
+                rgba(254, 254, 254, 0.95) 0%,
+                rgba(250, 249, 246, 0.9) 100%
+            );
             min-height: 100vh;
             position: relative;
             z-index: 2;
-            box-shadow: 0 0 40px rgba(75, 80, 49, 0.08);
+            box-shadow: 0 0 34px rgba(75, 80, 49, 0.08);
         }
 
         .section {
-            padding: 80px 40px;
+            padding: 70px 40px;
             max-width: 1200px;
             margin: 0 auto;
         }
 
         .section-header {
             text-align: center;
-            margin-bottom: 60px;
+            margin-bottom: 50px;
         }
 
         .section-title {
-            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-size: clamp(2.3rem, 5vw, 3.2rem);
             font-weight: 300;
             color: #9A6E0E;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
             letter-spacing: -0.02em;
             position: relative;
             display: inline-block;
@@ -391,24 +366,26 @@
         }
 
         .section-subtitle {
-            font-size: 1.2rem;
+            font-size: 1.05rem;
             color: #4B5031;
-            opacity: 0.7;
+            opacity: 0.75;
         }
+
+        /* GRID EVENTI */
 
         .events-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-            margin-top: 50px;
+            gap: 26px;
+            margin-top: 40px;
         }
 
         .event-card {
-            background: white;
-            padding: 40px;
-            border-radius: 8px;
-            border: 1px solid rgba(75, 80, 49, 0.1);
-            transition: all 0.3s ease;
+            background: #FFFFFF;
+            padding: 34px;
+            border-radius: 10px;
+            border: 1px solid rgba(75, 80, 49, 0.12);
+            transition: all 0.25s ease;
             position: relative;
             overflow: hidden;
         }
@@ -420,105 +397,113 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(154, 110, 14, 0.1), transparent);
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(154, 110, 14, 0.09),
+                transparent
+            );
             transition: left 0.5s ease;
         }
 
         .event-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(75, 80, 49, 0.1);
+            transform: translateY(-4px);
+            box-shadow: 0 14px 34px rgba(75, 80, 49, 0.12);
         }
 
         .event-card:hover::before {
             left: 100%;
         }
 
-        .recurring-event {
-            border-left: 4px solid #959D6B;
-            background: linear-gradient(135deg, rgba(149, 157, 107, 0.05) 0%, white 100%);
-        }
-
         .special-event {
             border-left: 4px solid #BB823A;
-            background: linear-gradient(135deg, rgba(187, 130, 58, 0.05) 0%, white 100%);
+            background: linear-gradient(135deg, rgba(187, 130, 58, 0.04) 0%, #FFFFFF 100%);
+        }
+
+        .recurring-event {
+            border-left: 4px solid #959D6B;
+            background: linear-gradient(135deg, rgba(149, 157, 107, 0.04) 0%, #FFFFFF 100%);
         }
 
         .event-header {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
         }
 
         .event-date {
             background: linear-gradient(135deg, #9A6E0E 0%, #BB823A 100%);
             color: white;
-            padding: 15px 20px;
+            padding: 14px 18px;
             border-radius: 8px;
             text-align: center;
             min-width: 80px;
             font-weight: 600;
-            box-shadow: 0 4px 15px rgba(154, 110, 14, 0.3);
+            box-shadow: 0 4px 14px rgba(154, 110, 14, 0.28);
+            font-size: 0.92rem;
         }
 
         .event-info {
             flex: 1;
-            margin-left: 20px;
+            margin-left: 18px;
         }
 
         .event-title {
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 600;
             color: #9A6E0E;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .event-instructor {
             color: #4B5031;
             font-style: italic;
-            margin-bottom: 15px;
-            opacity: 0.8;
+            margin-bottom: 12px;
+            opacity: 0.85;
+            font-size: 0.95rem;
         }
 
         .event-meta {
             display: flex;
             flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 20px;
+            gap: 10px;
+            margin-bottom: 18px;
         }
 
         .meta-badge {
-            background: rgba(149, 157, 107, 0.1);
+            background: rgba(149, 157, 107, 0.08);
             color: #4B5031;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 14px;
+            padding: 7px 14px;
+            border-radius: 999px;
+            font-size: 0.85rem;
             font-weight: 500;
-            border: 1px solid rgba(149, 157, 107, 0.2);
+            border: 1px solid rgba(149, 157, 107, 0.22);
         }
 
         .event-description {
             color: #4B5031;
             line-height: 1.7;
-            margin-bottom: 25px;
-            opacity: 0.9;
+            margin-bottom: 22px;
+            opacity: 0.92;
+            font-size: 0.96rem;
         }
 
         .book-button {
             background: linear-gradient(135deg, #9A6E0E 0%, #BB823A 100%);
             color: white;
-            padding: 15px 30px;
+            padding: 13px 26px;
             border: none;
-            border-radius: 25px;
-            font-size: 16px;
+            border-radius: 24px;
+            font-size: 0.95rem;
             font-weight: 500;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.25s ease;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 10px;
-            box-shadow: 0 4px 15px rgba(154, 110, 14, 0.2);
+            gap: 8px;
+            box-shadow: 0 4px 14px rgba(154, 110, 14, 0.22);
         }
 
         .book-button:hover {
@@ -526,107 +511,30 @@
             box-shadow: 0 8px 20px rgba(154, 110, 14, 0.3);
         }
 
-        .calendar-section {
-            background: rgba(234, 228, 206, 0.3);
-            border-radius: 20px;
-            padding: 50px 40px;
-            margin: 60px 0;
-            text-align: center;
-        }
-
-        .calendar-title {
-            font-size: 2.5rem;
-            font-weight: 300;
-            color: #9A6E0E;
-            margin-bottom: 30px;
-        }
-
-        .calendar-grid {
-            display: grid;
-            grid-template-columns: repeat(7, 1fr);
-            gap: 8px;
-            max-width: 400px;
-            margin: 0 auto;
-        }
-
-        .calendar-header {
-            font-size: 14px;
-            font-weight: 600;
-            color: #4B5031;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .calendar-day {
-            width: 45px;
-            height: 45px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            border-radius: 50%;
-            transition: all 0.2s ease;
-            cursor: default;
-        }
-
-        .calendar-day.has-event {
-            background: linear-gradient(135deg, #9A6E0E 0%, #BB823A 100%);
-            color: white;
-            font-weight: 600;
-            box-shadow: 0 2px 8px rgba(154, 110, 14, 0.3);
-        }
-
-        .calendar-day.has-recurring {
-            background: linear-gradient(135deg, #959D6B 0%, #6F763B 100%);
-            color: white;
-            font-weight: 600;
-            box-shadow: 0 2px 8px rgba(149, 157, 107, 0.3);
-        }
-
-        .calendar-day.other-month {
-            opacity: 0.3;
-        }
-
-        .calendar-legend {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 30px;
-        }
-
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .legend-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-        }
-
-        .legend-dot.event {
-            background: linear-gradient(135deg, #9A6E0E 0%, #BB823A 100%);
-        }
-
-        .legend-dot.recurring {
-            background: linear-gradient(135deg, #959D6B 0%, #6F763B 100%);
-        }
+        /* HEADER SEMPLICE PER MESE */
 
         .simple-header {
-            padding: 120px 40px 60px;
+            padding: 110px 40px 60px;
             text-align: center;
             background: linear-gradient(135deg, #EAE4CE 0%, #D3BA8F 100%);
         }
 
         .simple-header h1 {
-            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-size: clamp(2.5rem, 6vw, 3.8rem);
             font-weight: 600;
             color: #9A6E0E;
             margin: 0;
             letter-spacing: -0.02em;
         }
+
+        .simple-header p {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #4B5031;
+            opacity: 0.8;
+        }
+
+        /* MAPPA / CONTATTI – COPIATO DA NOVEMBRE (stesso stile) */
 
         .map-section {
             background: white;
@@ -634,7 +542,7 @@
             padding: 40px;
             margin: 60px 0;
             border: 1px solid rgba(75, 80, 49, 0.1);
-            box-shadow: 0 10px 30px rgba(75, 80, 49, 0.1);
+            box-shadow: 0 10px 26px rgba(75, 80, 49, 0.1);
         }
 
         .map-title {
@@ -660,12 +568,12 @@
 
         .location-details h4 {
             color: #9A6E0E;
-            margin-bottom: 20px;
-            font-size: 1.2rem;
+            margin-bottom: 18px;
+            font-size: 1.15rem;
         }
 
         .location-details p {
-            margin-bottom: 15px;
+            margin-bottom: 14px;
             color: #4B5031;
             line-height: 1.6;
         }
@@ -673,158 +581,16 @@
         .map-embed {
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(75, 80, 49, 0.1);
+            box-shadow: 0 4px 14px rgba(75, 80, 49, 0.1);
         }
 
-        @media (max-width: 768px) {
-            .nav-menu {
-                display: none;
-            }
-            
-            .mobile-menu-btn {
-                display: block;
-            }
-            
-            .nav-container {
-                padding: 0 20px;
-            }
-
-            .hero-content {
-                padding: 0 20px;
-            }
-            
-            .hero-cta {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .cta-button {
-                width: 100%;
-                max-width: 300px;
-            }
-
-            .welcome-section {
-                padding: 60px 20px;
-            }
-            
-            .section {
-                padding: 60px 20px;
-            }
-            
-            .events-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .event-card {
-                padding: 30px 20px;
-            }
-            
-            .event-header {
-                flex-direction: column;
-                gap: 15px;
-            }
-            
-            .event-info {
-                margin-left: 0;
-            }
-            
-            .calendar-grid {
-                gap: 4px;
-            }
-            
-            .calendar-day {
-                width: 35px;
-                height: 35px;
-                font-size: 12px;
-            }
-
-            .map-info {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            .particle {
-                animation: none;
-            }
-            
-            .event-card::before {
-                display: none;
-            }
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        #settimanali { scroll-margin-top: 80px; }
-        #mensili { scroll-margin-top: 80px; }
-        #mappa { scroll-margin-top: 80px; }
-
-        .progress-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background: rgba(234, 228, 206, 0.3);
-            z-index: 10000;
-        }
-
-        .progress-bar {
-            height: 100%;
-            background: linear-gradient(90deg, #9A6E0E 0%, #BB823A 100%);
-            width: 0%;
-            transition: width 0.2s ease;
-            box-shadow: 0 2px 10px rgba(154, 110, 14, 0.4);
-        }
-
-        .whatsapp-float {
-            position: fixed !important;
-            bottom: 30px !important;
-            right: 30px !important;
-            width: 60px;
-            height: 60px;
-            background: #25D366;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
-            z-index: 99999 !important;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .whatsapp-float:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 30px rgba(37, 211, 102, 0.6);
-        }
-
-        .whatsapp-float svg {
-            width: 30px;
-            height: 30px;
-            fill: white;
-        }
-
-        .section-divider {
-            text-align: center;
-            margin: 60px 0;
-            opacity: 0.3;
-        }
-
-        .section-divider svg {
-            width: 60px;
-            height: 30px;
-            fill: #9A6E0E;
-        }
+        /* FOOTER – identico a novembre */
 
         .footer {
             background: #4B5031;
             color: #EAE4CE;
             padding: 80px 30px 30px;
-            margin-top: 100px;
+            margin-top: 80px;
         }
 
         .footer-content {
@@ -835,14 +601,14 @@
         .footer-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 50px;
-            margin-bottom: 50px;
+            gap: 40px;
+            margin-bottom: 40px;
         }
 
         .footer-section h3 {
             color: #D3BA8F;
-            margin-bottom: 25px;
-            font-size: 1.3rem;
+            margin-bottom: 22px;
+            font-size: 1.2rem;
             font-weight: 600;
         }
 
@@ -852,14 +618,14 @@
         }
 
         .footer-section ul li {
-            margin-bottom: 12px;
+            margin-bottom: 10px;
         }
 
         .footer-section a {
             color: #EAE4CE;
             text-decoration: none;
             opacity: 0.8;
-            transition: all 0.3s ease;
+            transition: all 0.25s ease;
         }
 
         .footer-section a:hover {
@@ -870,24 +636,24 @@
         .social-links {
             display: flex;
             gap: 15px;
-            margin-top: 20px;
+            margin-top: 18px;
         }
 
         .social-link {
-            width: 45px;
-            height: 45px;
+            width: 42px;
+            height: 42px;
             border-radius: 50%;
-            background: rgba(234, 228, 206, 0.1);
+            background: rgba(234, 228, 206, 0.12);
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.3s ease;
+            transition: all 0.25s ease;
             text-decoration: none;
         }
 
         .social-link:hover {
             background: #9A6E0E;
-            transform: translateY(-3px);
+            transform: translateY(-2px);
         }
 
         .social-link svg {
@@ -898,16 +664,48 @@
 
         .footer-bottom {
             text-align: center;
-            padding-top: 30px;
+            padding-top: 24px;
             border-top: 1px solid rgba(234, 228, 206, 0.2);
             opacity: 0.7;
-            font-size: 14px;
+            font-size: 0.85rem;
         }
 
-        /* SISTEMA PRENOTAZIONE */
+        /* BOTTONE WHATSAPP flottante – identico */
+
+        .whatsapp-float {
+            position: fixed !important;
+            bottom: 26px !important;
+            right: 26px !important;
+            width: 56px;
+            height: 56px;
+            background: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            z-index: 99999 !important;
+            transition: all 0.25s ease;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.06);
+            box-shadow: 0 6px 26px rgba(37, 211, 102, 0.6);
+        }
+
+        .whatsapp-float svg {
+            width: 28px;
+            height: 28px;
+            fill: white;
+        }
+
+        /* SISTEMA PRENOTAZIONE (copiato da novembre, solo testi generici) */
+
         .booking-section {
             position: fixed;
-            bottom: 30px;
+            bottom: 26px;
             left: 50%;
             transform: translateX(-50%);
             z-index: 1000;
@@ -917,39 +715,36 @@
             background: linear-gradient(135deg, #9A6E0E 0%, #BB823A 100%);
             color: white;
             border: none;
-            padding: 20px 30px;
+            padding: 16px 26px;
             border-radius: 30px;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 700;
             cursor: pointer;
-            box-shadow: 0 8px 30px rgba(154, 110, 14, 0.4);
+            box-shadow: 0 8px 28px rgba(154, 110, 14, 0.4);
             transition: all 0.3s ease;
             animation: pulse-booking 3s infinite;
         }
 
         .booking-toggle:hover {
-            transform: translateY(-3px) scale(1.05);
-            box-shadow: 0 12px 40px rgba(154, 110, 14, 0.6);
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 12px 34px rgba(154, 110, 14, 0.6);
         }
 
         @keyframes pulse-booking {
-            0%, 100% { 
-                box-shadow: 0 8px 30px rgba(154, 110, 14, 0.4);
-                transform: scale(1); 
+            0%, 100% {
+                box-shadow: 0 8px 28px rgba(154, 110, 14, 0.4);
+                transform: scale(1);
             }
-            50% { 
-                box-shadow: 0 12px 40px rgba(154, 110, 14, 0.6);
-                transform: scale(1.02); 
+            50% {
+                box-shadow: 0 12px 38px rgba(154, 110, 14, 0.6);
+                transform: scale(1.02);
             }
         }
 
         .booking-form-container {
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.7);
+            inset: 0;
+            background: rgba(0, 0, 0, 0.65);
             display: none;
             align-items: center;
             justify-content: center;
@@ -963,72 +758,72 @@
 
         .booking-form {
             background: white;
-            padding: 40px;
-            border-radius: 15px;
-            max-width: 600px;
+            padding: 34px;
+            border-radius: 14px;
+            max-width: 620px;
             width: 100%;
             max-height: 90vh;
             overflow-y: auto;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 20px 54px rgba(0, 0, 0, 0.32);
             position: relative;
         }
 
         .form-header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 24px;
         }
 
         .form-header h3 {
-            font-size: 2rem;
+            font-size: 1.9rem;
             color: #9A6E0E;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .form-group {
-            margin-bottom: 20px;
+            margin-bottom: 18px;
         }
 
         .form-group label {
             display: block;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
             color: #4B5031;
             font-weight: 500;
         }
 
         .form-input {
             width: 100%;
-            padding: 12px 15px;
+            padding: 11px 14px;
             border: 1px solid rgba(75, 80, 49, 0.3);
             border-radius: 8px;
             font-size: 14px;
             background: white;
-            transition: border-color 0.3s ease;
+            transition: border-color 0.25s ease;
         }
 
         .form-input:focus {
             outline: none;
             border-color: #9A6E0E;
-            box-shadow: 0 0 0 3px rgba(154, 110, 14, 0.1);
+            box-shadow: 0 0 0 3px rgba(154, 110, 14, 0.12);
         }
 
         .events-selection {
-            margin-bottom: 25px;
+            margin-bottom: 22px;
         }
 
         .events-selection h4 {
             color: #4B5031;
-            margin-bottom: 15px;
-            font-size: 1.1rem;
+            margin-bottom: 12px;
+            font-size: 1.05rem;
         }
 
         .event-checkbox {
             display: flex;
             align-items: flex-start;
-            margin-bottom: 15px;
-            padding: 15px;
-            background: rgba(234, 228, 206, 0.2);
+            margin-bottom: 12px;
+            padding: 12px;
+            background: rgba(234, 228, 206, 0.22);
             border-radius: 8px;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.25s ease;
         }
 
         .event-checkbox:hover {
@@ -1036,9 +831,9 @@
         }
 
         .event-checkbox input[type="checkbox"] {
-            margin-right: 12px;
+            margin-right: 10px;
             margin-top: 3px;
-            transform: scale(1.2);
+            transform: scale(1.15);
             accent-color: #9A6E0E;
         }
 
@@ -1046,33 +841,33 @@
             flex: 1;
         }
 
-        .event-info-small .event-title-small {
+        .event-title-small {
             font-weight: 600;
             color: #4B5031;
-            margin-bottom: 5px;
+            margin-bottom: 4px;
         }
 
-        .event-info-small .event-meta-small {
+        .event-meta-small {
             font-size: 12px;
             color: #4B5031;
-            opacity: 0.7;
+            opacity: 0.75;
         }
 
         .form-actions {
             display: flex;
-            gap: 15px;
-            margin-top: 30px;
+            gap: 12px;
+            margin-top: 22px;
         }
 
         .form-btn {
             flex: 1;
-            padding: 15px;
+            padding: 13px;
             border: none;
             border-radius: 8px;
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.25s ease;
         }
 
         .form-btn.primary {
@@ -1097,15 +892,15 @@
 
         .close-form {
             position: absolute;
-            top: 15px;
-            right: 20px;
+            top: 12px;
+            right: 18px;
             background: none;
             border: none;
             font-size: 24px;
             color: #4B5031;
             cursor: pointer;
             opacity: 0.7;
-            transition: opacity 0.3s ease;
+            transition: opacity 0.25s ease;
         }
 
         .close-form:hover {
@@ -1113,11 +908,12 @@
         }
 
         .form-message {
-            padding: 15px;
+            padding: 12px;
             border-radius: 8px;
-            margin-bottom: 20px;
+            margin-bottom: 16px;
             text-align: center;
             font-weight: 500;
+            font-size: 0.9rem;
         }
 
         .form-message.success {
@@ -1135,13 +931,13 @@
         .promo-badge {
             background: linear-gradient(135deg, #959D6B 0%, #6F763B 100%);
             color: white;
-            padding: 15px 20px;
+            padding: 14px 18px;
             border-radius: 10px;
-            margin-bottom: 25px;
+            margin-bottom: 18px;
             font-weight: 600;
-            font-size: 1.1rem;
+            font-size: 1rem;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(149, 157, 107, 0.3);
+            box-shadow: 0 4px 16px rgba(149, 157, 107, 0.3);
             animation: pulse-promo 3s ease-in-out infinite;
         }
 
@@ -1149,26 +945,69 @@
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.02); }
         }
+
+        /* RESPONSIVE */
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+            .mobile-menu-btn {
+                display: block;
+            }
+            .nav-container {
+                padding: 0 20px;
+            }
+            .hero-content {
+                padding: 0 20px;
+            }
+            .hero-cta {
+                flex-direction: column;
+            }
+            .cta-button {
+                width: 100%;
+                max-width: 280px;
+            }
+            .welcome-section {
+                padding: 70px 20px 50px;
+            }
+            .section {
+                padding: 60px 20px;
+            }
+            .events-grid {
+                grid-template-columns: 1fr;
+            }
+            .event-card {
+                padding: 28px 20px;
+            }
+            .event-header {
+                flex-direction: column;
+                gap: 12px;
+            }
+            .event-info {
+                margin-left: 0;
+            }
+            .map-info {
+                grid-template-columns: 1fr;
+            }
+            .booking-section {
+                bottom: 90px;
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #welcome { scroll-margin-top: 80px; }
+        #mensili { scroll-margin-top: 80px; }
+        #mappa { scroll-margin-top: 80px; }
     </style>
 </head>
 <body>
-    <div class="progress-container">
-        <div class="progress-bar" id="progressBar"></div>
-    </div>
-
-    <div class="floating-particles">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-    </div>
-
     <div class="container">
+
+        <!-- NAV -->
         <nav class="nav" id="mainNav">
             <div class="nav-container">
                 <div class="logo">
@@ -1177,8 +1016,7 @@
                 <div class="nav-menu">
                     <a href="#home" class="nav-link">Home</a>
                     <a href="#welcome" class="nav-link">Chi Siamo</a>
-                    <a href="#settimanali" class="nav-link">Eventi Settimanali</a>
-                    <a href="#mensili" class="nav-link">Eventi Mensili</a>
+                    <a href="#mensili" class="nav-link">Eventi Dicembre</a>
                     <a href="#mappa" class="nav-link">Contatti</a>
                 </div>
                 <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
@@ -1188,23 +1026,27 @@
         <div class="mobile-nav" id="mobileNav">
             <a href="#home" onclick="closeMobileMenu()">Home</a>
             <a href="#welcome" onclick="closeMobileMenu()">Chi Siamo</a>
-            <a href="#settimanali" onclick="closeMobileMenu()">Eventi Settimanali</a>
-            <a href="#mensili" onclick="closeMobileMenu()">Eventi Mensili</a>
+            <a href="#mensili" onclick="closeMobileMenu()">Eventi Dicembre</a>
             <a href="#mappa" onclick="closeMobileMenu()">Contatti</a>
         </div>
 
+        <!-- HERO DICEMBRE -->
         <section class="hero-section" id="home">
             <div class="hero-content">
+                <p class="hero-month">Dicembre 2025 · Programma</p>
                 <h1 class="hero-logo">Libra</h1>
                 <p class="hero-subtitle">Terra Creativa</p>
                 <p class="hero-text">
-                    In un mondo che corre senza sosta, abbiamo creato uno spazio dove <em>il tempo rallenta il suo passo</em>.<br><br>
-                    Un'oasi di equilibrio e connessione dove corpo, mente e spirito ritrovano la loro <em>naturale armonia</em>.
+                    L’inverno entra a Libra con brunch caldi, cene d’inverno, laboratori, cerchi sonori e pratiche di respiro.  
+                    Un mese per <em>rallentare, nutrirti e ritrovare radici</em> tra arte, cibo vegetale e rituali condivisi.
                 </p>
                 <div class="hero-cta">
-                    <a href="#mensili" class="cta-button">Scopri gli Eventi</a>
-                    <a href="#settimanali" class="cta-button secondary">Eventi Settimanali</a>
+                    <a href="#mensili" class="cta-button">Scopri gli Eventi di Dicembre</a>
+                    <a href="#mappa" class="cta-button secondary">Come Raggiungerci</a>
                 </div>
+                <p class="hero-caption">
+                    Dal 6 al 28 dicembre · Pietrasanta
+                </p>
             </div>
             <div class="scroll-indicator" onclick="scrollToSection('welcome')">
                 <svg viewBox="0 0 24 24" width="30" height="30">
@@ -1213,23 +1055,17 @@
             </div>
         </section>
 
+        <!-- WELCOME (puoi riusare il tuo testo) -->
         <section class="welcome-section" id="welcome">
             <div class="welcome-container">
                 <h2 class="welcome-title">Welcome</h2>
                 <p class="welcome-text">
-                    <strong>Libra Terra Creativa</strong> nasce come un'oasi di equilibrio e connessione — un luogo dove corpo, mente e spirito ritrovano la loro naturale armonia.
+                    <strong>Libra Terra Creativa</strong> è uno spazio dove l’inverno diventa occasione per ritrovarsi, dentro e fuori.  
+                    Tra brunch vegetali, cerchi di voce, pratiche di respiro, numerologia, arte e ceramica, dicembre diventa un invito a rallentare.
                 </p>
                 <p class="welcome-text">
-                    Crediamo che la vera bellezza risieda nelle connessioni: con se stessi, con gli altri, con la natura che ci circonda. Ogni nostra proposta è un invito a riscoprire questa rete invisibile che unisce tutto ciò che esiste.
-                </p>
-                <p class="welcome-text">
-                    La pratica dello yoga, il movimento consapevole, l'espressione creativa e il nutrimento consapevole sono i sentieri che abbiamo scelto per accompagnarti in questo viaggio di riscoperta.
-                </p>
-                <p class="welcome-text">
-                    Non insegniamo tecniche, ma condividiamo un modo di essere — <strong>presente, autentico, in ascolto</strong>.
-                </p>
-                <p class="welcome-text">
-                    A Pietrasanta, dove l'arte e la bellezza permeano ogni angolo, abbiamo trovato il terreno fertile per coltivare questa visione. Qui, tra le montagne e il mare, ti invitiamo a rallentare, respirare e riscoprire la tua essenza più vera.
+                    Ogni evento è pensato come un piccolo rito: un tempo dedicato a te, alle relazioni e alla cura.  
+                    Dalla tavola alle pratiche corporee, dalla voce al suono, ciò che succede a Libra nasce per nutrire presenza e connessione.
                 </p>
                 <p class="signature">
                     Simone e Silvia
@@ -1237,602 +1073,574 @@
             </div>
         </section>
 
+        <!-- TITOLONE MESE -->
         <div class="simple-header">
-            <h1>Eventi Novembre 2025</h1>
+            <h1>Eventi Dicembre 2025</h1>
+            <p>Appuntamenti speciali del mese · Libra Terra Creativa</p>
         </div>
 
-        <section class="section" id="settimanali">
-            <div class="section-header">
-                <h2 class="section-title">Eventi Settimanali</h2>
-                <p class="section-subtitle">Appuntamenti fissi ogni settimana</p>
-            </div>
-            
-            <div class="events-grid">
-                <div class="event-card recurring-event">
-                    <div class="event-header">
-                        <div class="event-date">Lun-Sab</div>
-                        <div class="event-info">
-                            <h3 class="event-title"> 💪 Esercizio Terapeutico Personalizzato</h3>
-                            <div class="event-instructor">con Simone</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">Su appuntamento</span>
-                        <span class="meta-badge">50€/h individuale</span>
-                        <span class="meta-badge">25€/h in coppia</span>
-                    </div>
-                    <div class="event-description">
-                        Un percorso di movimento personalizzato che va oltre il semplice allenamento. Attraverso un approccio chinesiologico, ogni sessione è studiata per riequilibrare, riabilitare quando necessario e potenziare nelle fasi avanzate.
-                    </div>
-                    <a href="https://wa.me/393345957023?text=Ciao! Vorrei maggiori informazioni sull'Esercizio Terapeutico Personalizzato" class="book-button">
-                        Prenota Ora
-                    </a>
-                </div>
-
-                <div class="event-card recurring-event">
-                    <div class="event-header">
-                        <div class="event-date">Lun</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🧘‍♀️ Hatha Yoga </h3>
-                            <div class="event-instructor">con Silvia</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">Lunedì 18:00</span>
-                        <span class="meta-badge">15€</span>
-                        <span class="meta-badge">Sessione inclusiva</span>
-                    </div>
-                    <div class="event-description">
-                        Yoga terapeutico per il pavimento pelvico. Perfetto per donne in gravidanza, mamme con bimbi fino ai 7 mesi e chiunque desideri una pratica lenta di Hatha Yoga con focus sul benessere pelvico.
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Yoga PTYM del lunedì" class="book-button">
-                        Prenota Ora
-                    </a>
-                </div>
-             
-                <div class="event-card recurring-event">
-                    <div class="event-header">
-                        <div class="event-date">Mer</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🤸‍♀️ Pilates</h3>
-                            <div class="event-instructor">con Francesca Parrini</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">Mercoledì 13:30-14:30</span>
-                        <span class="meta-badge">15€</span>
-                    </div>
-                    <div class="event-description">
-                        Rafforza il tuo corpo e migliora la postura. Una pratica che unisce forza, flessibilità e controllo mentale per ritrovare il tuo centro.
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Pilates del mercoledì" class="book-button">
-                        Prenota Ora
-                    </a>
-                </div>
-
-                <div class="event-card recurring-event">
-                    <div class="event-header">
-                        <div class="event-date">Ven</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🧘 Yoga Flow </h3>
-                            <div class="event-instructor">con Naty</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">Giovedì 12:00-13:00</span>
-                        <span class="meta-badge">20€</span>
-                    </div>
-                    <div class="event-description">
-                        Ritrova equilibrio e armonia. Una pratica per connetterti con te stesso e iniziare il weekend con energia positiva.
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Yoga del venerdì" class="book-button">
-                        Prenota Ora
-                    </a>
-                </div>
-
-                <div class="event-card recurring-event">
-                    <div class="event-header">
-                        <div class="event-date">Dom</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🏺 Corso di Ceramica</h3>
-                            <div class="event-instructor">con Linda Bianchi Cervini</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">Domenica 11:00-14:00</span>
-                        <span class="meta-badge">40€</span>
-                    </div>
-                    <div class="event-description">
-                        Lascia che le tue mani parlino attraverso l'argilla. Crea oggetti unici e libera la tua creatività in questo laboratorio rilassante.
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare il Corso di Ceramica" class="book-button">
-                        Prenota Ora
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <div class="section-divider">
-            <svg viewBox="0 0 100 30">
-                <path d="M10,15 Q25,5 40,15 T70,15 T100,15" stroke="#9A6E0E" stroke-width="1" fill="none" opacity="0.5"/>
-                <circle cx="50" cy="15" r="3" fill="#9A6E0E"/>
-                <path d="M0,15 Q15,25 30,15 T60,15 T90,15" stroke="#9A6E0E" stroke-width="0.5" fill="none" opacity="0.3"/>
-            </svg>
-        </div>
-
+        <!-- EVENTI MENSILI DICEMBRE -->
         <section class="section" id="mensili">
             <div class="section-header">
-                <h2 class="section-title">Eventi di Novembre</h2>
-                <p class="section-subtitle">Appuntamenti speciali del mese</p>
+                <h2 class="section-title">Eventi di Dicembre</h2>
+                <p class="section-subtitle">
+                    Brunch, cene d’inverno, percorsi di respiro, numerologia, ceramica, arteterapia e degustazioni plant‑based.
+                </p>
             </div>
-            
+
             <div class="events-grid">
+
+                <!-- 6 DICEMBRE -->
                 <div class="event-card special-event">
                     <div class="event-header">
-                        <div class="event-date">7-14-21<br>Ven</div>
+                        <div class="event-date">6<br>Sab</div>
                         <div class="event-info">
-                            <h3 class="event-title">🫙 Corso di Fermentazione - Lezione 3</h3>
-                            <div class="event-instructor">con Andrea Rossi</div>
+                            <h3 class="event-title">Disegno dal Vero &amp; Colazione con Modella</h3>
+                            <div class="event-instructor">con Maria Fontana</div>
                         </div>
                     </div>
                     <div class="event-meta">
-                        <span class="meta-badge">18:00 - 20:30</span>
-                        <span class="meta-badge">50€</span>
+                        <span class="meta-badge">10:30 – 13:00</span>
+                        <span class="meta-badge">10€</span>
+                        <span class="meta-badge">Porta i tuoi materiali</span>
                     </div>
                     <div class="event-description">
-                        <strong>Fermenta Cereali e Legumi</strong><br>
-                        Impara a fare la pasta madre, il pane fatto in casa, oatmeal fermentato e tempeh. Porta nella tua cucina alimenti vivi e nutrienti.
+                        Un'esperienza artistica che unisce il disegno dal vero a una colazione conviviale.
+                        Porta i tuoi materiali preferiti e pratica in un ambiente rilassante, per nutrire creatività
+                        e connessioni con altri artisti.
                     </div>
-                   <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sul corso di Fermentazione" class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-                <div class="event-card special-event">
-                    <div class="event-header">
-                        <div class="event-date">8<br>Sab</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🌸 Costellazioni - Il Mito della Madre</h3>
-                            <div class="event-instructor">con Rosita Spariglia</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">10:00 - 18:00</span>
-                        <span class="meta-badge">100€</span>
-                        <span class="meta-badge">Giornata intensiva</span>
-                    </div>
-                    <div class="event-description">
-Riscoprire la Madre su Più Piani
-Partendo dalla visione di Carl Gustav Jung del mito universale, esploreremo la figura della Madre: colei che dà la vita e nutre, ma che può anche soffocare o distruggere. La Madre è l'immagine collettiva che si manifesta nei miti di Maria (Madre Divina) e Iside (custode di misteri), così come nelle figure della strega o della matrigna.
-Questo lavoro profondo si concentra sulla necessità di riprendere la Madre nel proprio cuore su diversi livelli:
-Livello Biologico: Ritrovare il movimento interrotto del parto.
-Livello Animico: Riconoscere la scelta fatta prima di nascere: cosa dovevamo imparare da lei?
-Livello Universale: Riscoprire la "madre universale" (Vita, Energia primordiale) alla quale apparteniamo.
-Cosa imparerai: Scopriremo come la relazione con la Madre sia direttamente collegata al denaro, al successo, alle relazioni e alla manifestazione di molti sintomi fisici (come insonnia, digestione difficile, intolleranze o pancia gonfia).
-Lavoreremo intensamente attraverso le Costellazioni di Gruppo (individuali, di gruppo o partecipando al campo dei compagni).                    </div>
-                     <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni" class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-                <div class="event-card">
-                    <div class="event-header">
-                        <div class="event-date">12<br>Mer</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🔥 Sciamanesimo Contemporaneo - 1° Lezione</h3>
-                            <div class="event-instructor">con Beatrice Reglieri</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">18:00 - 20:30</span>
-                        <span class="meta-badge">35€ singola</span>
-                        <span class="meta-badge">90€ pacchetto 3 lezioni</span>
-                    </div>
-                    <div class="event-description">
-                        <strong>Riconnettiti con la Magia del Tuo Bambino Interiore</strong><br>
-                        Esplora le tue mappe interiori attraverso pratiche sciamaniche. Riscopri quella parte autentica e pura di te che hai dimenticato crescendo.
-                        2° Lezione 10/12 - Viaggio sciamanico per incontrare il tuo animale guida.
-                        3° Lezione 21/01 - Riconnessione con la madre terra, rituale di restituzione dei doni.
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sul corso di Sciamanesimo Contemporaneo" class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-                <div class="event-card special-event">
-                    <div class="event-header">
-                        <div class="event-date">14<br>Ven</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🫙 Corso di Fermentazione - Lezione 4</h3>
-                            <div class="event-instructor">con Andrea Rossi</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">18:00 - 20:30</span>
-                        <span class="meta-badge">50€</span>
-                    </div>
-                    <div class="event-description">
-                        <strong>Bevande Toniche Fermentate</strong><br>
-                        Kombucha, fermentazione della frutta, champagne di sambuco. Crea bevande salutari e frizzanti che fanno bene al tuo corpo.
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sul corso di Fermentazione" class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-                <div class="event-card special-event">
-                    <div class="event-header">
-                        <div class="event-date">15<br>Sab</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🍃 Brunch by Amasia </h3>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">11:00-15:00</span>
-                        <span class="meta-badge">35€</span>
-                        <span class="meta-badge">Su prenotazione</span>
-                    </div>
-                    <div class="event-description">
-                        Un momento di pausa e gusto, pensato per chi cerca un risveglio leggero e genuino. Il nostro brunch è interamente a base vegetale, una selezione di piatti freschi e ricchi di sapore.
-
-Cosa Troverai nel Menu:
-- Buffet di Dolci
-- Avocado Toast
-- Tofu Scramble
-- Acai Bowl
-- Spremuta e Cappuccino
-
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare il Brunch " class="book-button">
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Disegno dal Vero & Colazione con Modella del 6 dicembre"
+                       class="book-button">
                         Prenota Ora
                     </a>
                 </div>
-                
+
                 <div class="event-card special-event">
                     <div class="event-header">
-                        <div class="event-date">15<br>Sab</div>
+                        <div class="event-date">6<br>Sab</div>
                         <div class="event-info">
-                            <h3 class="event-title">🎄 Panettone Day</h3>
-                            <div class="event-instructor">by Pasticceria Belsian X Amasia</div>
+                            <h3 class="event-title">Centro Tavola Natalizio</h3>
+                            <div class="event-instructor">Galleria Bellina</div>
                         </div>
                     </div>
                     <div class="event-meta">
-                        <span class="meta-badge">16:30 - 19:30</span>
+                        <span class="meta-badge">Dalle 15:30</span>
+                        <span class="meta-badge">45€</span>
+                        <span class="meta-badge">+5€ degustazione panettone Amasia</span>
+                    </div>
+                    <div class="event-description">
+                        Workshop di arte floreale per creare il tuo centro tavola di Natale con portatovaglioli
+                        e segnaposti coordinati.  
+                        Tra cerimonia del tè e degustazione del panettone vegetale by Amasia.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Centro Tavola Natalizio del 6 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <div class="event-card recurring-event">
+                    <div class="event-header">
+                        <div class="event-date">6<br>Sab</div>
+                        <div class="event-info">
+                            <h3 class="event-title">IN CON‑TATTO</h3>
+                            <div class="event-instructor">con Ilaria Marracci</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">Tre turni 9–36 mesi</span>
+                        <span class="meta-badge">10€</span>
+                    </div>
+                    <div class="event-description">
+                        Spazio di creatività ed esplorazione tattile e sensoriale per piccole e grandi mani,
+                        con colori naturali, argilla e materiali da esplorare con tutti i sensi.
+                        Tre turni per fasce d’età: 9–12, 13–24, 24–36 mesi.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei informazioni e prenotare IN CON-TATTO del 6 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <div class="event-card special-event">
+                    <div class="event-header">
+                        <div class="event-date">6<br>Sab</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Degustazione Pan di Luna</h3>
+                            <div class="event-instructor">Pan di Luna</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">15:30 – 17:30</span>
                         <span class="meta-badge">15€</span>
                         <span class="meta-badge">Panettone + cioccolata calda</span>
                     </div>
                     <div class="event-description">
-                        In anteprima il panettone 100% vegetale di Amasia. Degustazione con cioccolata calda in un'atmosfera natalizia. 
-                        Ingredienti semplici , prodotto artigianalmente in toscana con Amore
+                        Vieni ad assaggiare il Panettone 100% vegetale PanDiLuna accompagnato da cioccolata calda.
+                        Un'occasione speciale per scoprire un Natale plant‑based caldo e avvolgente.
                     </div>
-                     <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sulla Giornata dedicata al Panettone" class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-                <div class="event-card special-event">
-                    <div class="event-header">
-                        <div class="event-date">15<br>Sab</div>
-                        <div class="event-info">
-                            <h3 class="event-title">Aperitivo Gourmet - Bruschette & Territorio</h3>
-                            <div class="event-instructor"> Evento by Amasia</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">18:30-22:00</span>
-                        <span class="meta-badge">35€</span>
-                        <span class="meta-badge">🥖🍷 Bruschette gastronomiche e buon vino</span>
-                    </div>
-                    <div class="event-description">
-                       Un viaggio nei sapori del territorio attraverso bruschette gastronomiche che esaltano i prodotti locali — Incluso: degustazione di bruschette miste • un calice di vino da aziende agricole locali • acqua — Extra: calici aggiuntivi 5€ • panettoni artigianali • olio nuovo di produzione locale — Un'occasione perfetta per scoprire le eccellenze del nostro territorio in atmosfera conviviale e rilassata.
-                    </div>
-                     <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sulla Serata Bruschette gastronomiche e buon vino " class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-                <div class="event-card special-event">
-                    <div class="event-header">
-                        <div class="event-date">16<br>Dom</div>
-                        <div class="event-info">
-                            <h3 class="event-title">❄️ Wim Hof Method - Fundamentals Workshop</h3>
-                            <div class="event-instructor">con Andrea Bianchi</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">9:00 - 15:00</span>
-                        <span class="meta-badge">99€</span>
-                        <span class="meta-badge">Max 30 partecipanti</span>
-                    </div>
-                    <div class="event-description">
-                        Impara a controllare il tuo sistema nervoso. Respirazione, freddo e forza mentale: scopri il potere nascosto dentro di te. Bagno ghiacciato facoltativo + brunch vegano incluso.
-                    </div>
-                     <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sul Metodo Wim Hof" class="book-button">
-                        Maggiori Info
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare la Degustazione Pan di Luna del 6 dicembre"
+                       class="book-button">
+                        Prenota Ora
                     </a>
                 </div>
 
                 <div class="event-card">
                     <div class="event-header">
-                        <div class="event-date">16<br>Dom</div>
+                        <div class="event-date">6<br>Sab</div>
                         <div class="event-info">
-                            <h3 class="event-title">🎵 Incontro di Psicofonia</h3>
-                            <div class="event-instructor">con Lorella Lenoci -  Michela Manara</div>
+                            <h3 class="event-title">Numerologia per l'Anima</h3>
+                            <div class="event-instructor">con Tania Giannecchini</div>
                         </div>
                     </div>
                     <div class="event-meta">
-                        <span class="meta-badge">16:00 - 17:00 (Michela Manara)</span>
-                        <span class="meta-badge">17:30 - 19:30 (Lorella Lenoci)</span>
-                        <span class="meta-badge">30€</span>
-                        <span class="meta-badge">scegli la sessione più adatta per te!</span>
+                        <span class="meta-badge">16:00 – 18:00</span>
+                        <span class="meta-badge">25€</span>
                     </div>
                     <div class="event-description">
-                        La Psicofonia è una disciplina affascinante e potente: un percorso di benessere e riarmonizzazione psico-fisica che utilizza la voce e il canto come strumenti autosperimentali. La voce è vista come espressione di sé, punto di partenza, strumento, percorso e obiettivo finale.
-                        1° sessione:🤰 Armonizzare la Gravidanza: Canto Prenatale® (con Michela Manara)
-                        Orario: 16:00 – 17:00
-                        Applicazione specifica della Psicofonia, il Canto Prenatale® accompagna la gestante e il bambino. La mamma sperimenta riduzione dei sintomi (come la nausea), ossigenazione ottimale, rilascio delle tensioni e riscoperta del piacere. Il bambino, grazie a questa stimolazione graduale, trae benefici per lo sviluppo tonico e neuroaffettivo, rafforzando il legame familiare.
-                        A chi è rivolto: L'esperienza è corporea e vocale, aperta a mamme, papà, familiari e amici che desiderano già comunicare con il bambino in utero.
-                        2° sessione:🎤 La Voce è Espressione di Sé (con Lorella Lenoci)
-                         Orario: 17:30 – 19:30
-                         Un incontro di Psicofonia per esplorare la tua voce come chiave di lettura e riequilibrio interiore. Dedicati un tempo per utilizzare il canto e la risonanza per esprimerti pienamente e ritrovare l'armonia psico-fisica.
+                        Un viaggio nei codici numerici della data di nascita per comprendere chi sei,
+                        riscoprire talenti nascosti e riconnetterti alla tua parte più autentica.
                     </div>
-                     <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sull'Incontro di Psicofonia" class="book-button">
-                        Maggiori Info
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Numerologia per l'Anima del 6 dicembre"
+                       class="book-button">
+                        Prenota Ora
                     </a>
                 </div>
 
+                <!-- 7 DICEMBRE -->
                 <div class="event-card special-event">
                     <div class="event-header">
-                        <div class="event-date">17<br>Lun</div>
+                        <div class="event-date">7<br>Dom</div>
                         <div class="event-info">
-                            <h3 class="event-title">🥗 Lezioni di Buona Alimentazione - 2° Incontro</h3>
-                            <div class="event-instructor">con Dott.ssa Francesca Ciuffi</div>
+                            <h3 class="event-title">Brunch by Amasia</h3>
+                            <div class="event-instructor">Amasia</div>
                         </div>
                     </div>
                     <div class="event-meta">
-                        <span class="meta-badge">18:00 - 20:00</span>
-                        <span class="meta-badge">25€ singola</span>
-                    </div>
-                    <div class="event-description">
-                        <strong> </strong><br>
-Corso di 8 incontri mensili (ogni 3° lunedì) dedicato alla nutrizione consapevole. Prossimi temi: differenza tra digestione, digeribilità e assimilazione • un sano microbiota • la buona colazione • il buon pranzo • la buona cena • cibi d'emozione • intolleranze e allergie. Un percorso completo per trasformare il tuo rapporto con il cibo.                    </div>
-                     <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sulle Lezioni di Buona Alimentazione " class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-                <div class="event-card special-event">
-                    <div class="event-header">
-                        <div class="event-date">21<br>Ven</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🫙 Corso di Fermentazione - Lezione 5 (Finale)</h3>
-                            <div class="event-instructor">con Andrea Rossi</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">18:00 - 20:30</span>
-                        <span class="meta-badge">50€</span>
-                    </div>
-                    <div class="event-description">
-                        <strong>Grandiosi Microbi</strong><br>
-                        La fermentazione per l'ambiente. Bio-risanamento, cura della terra, prodotti enzimatici naturali. Ultima lezione del percorso.
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sul corso di Fermentazione" class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-                <div class="event-card">
-                    <div class="event-header">
-                        <div class="event-date">22<br>Sab</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🔔 Sonic Breathing</h3>
-                            <div class="event-instructor">con Benedetta Pisani & Lisa Zini</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">11:00 - 12:30</span>
-                        <span class="meta-badge">30€</span>
-                    </div>
-                    <div class="event-description">
-                        Respiro guidato e campane di cristallo a 432Hz. Un viaggio sensoriale che riequilibra le tue energie e ti lascia profondamente rilassato.
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sull'evento Sonic Breathing" class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-                 <div class="event-card special-event">
-                    <div class="event-header">
-                        <div class="event-date">22<br>Sab</div>
-                        <div class="event-info">
-                            <h3 class="event-title">📖 Zuppa e Racconti</h3>
-                            <div class="event-instructor">Cena Letteraria by Amasia</div>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge">Inizio cena ore 21:00</span>
-                        <span class="meta-badge">40€</span>
-                        <span class="meta-badge">Tavolata condivisa</span>
-                    </div>
-                    <div class="event-description">
-                       Zuppe calde e letture del cuore
-Un invito speciale: porta con te un brano, una poesia o un passo di un libro che ami, per condividerlo e donarlo agli altri in un momento di calore condiviso.
-Il nostro menu:
-
-- Vellutata di zucca aromatizzata al rosmarino, con feta sbriciolata, frutta secca e germogli di ravanello
-- Dahl indiano di lenticchie al curry con verdure di stagione
-- Zuppa alla Fratoiana servita con pane di massa madre tostato
-
-In accompagnamento: Chianti Colle dei Fossili - Fattoria Piccaratico
-Per concludere: Il nostro panettone artigianale by Amasia
-                        
-                    </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sulla serata ZUPPA E RACCONTI" class="book-button">
-                        Maggiori Info
-                    </a>
-                </div>
-
-  <div class="event-card special-event">
-                    <div class="event-header">
-                        <div class="event-date">23<br>Dom</div>
-                        <div class="event-info">
-                            <h3 class="event-title">🍃 Brunch by Amasia </h3>
-                        </div>
-                    </div>
-                    <div class="event-meta">
-                        <span class="meta-badge"> 11:00-15:00</span>
+                        <span class="meta-badge">11:00 – 15:00</span>
                         <span class="meta-badge">35€</span>
                         <span class="meta-badge">Su prenotazione</span>
                     </div>
                     <div class="event-description">
-                        Un momento di pausa e gusto, pensato per chi cerca un risveglio leggero e genuino. Il nostro brunch è interamente a base vegetale, una selezione di piatti freschi e ricchi di sapore.
-
-Cosa Troverai nel Menu:
-- Buffet di Dolci
-- Avocado Toast
-- Tofu Scramble
-- Acai Bowl
-- Spremuta e Cappuccino
-La domenica giusta per stare bene e mangiare bene.
+                        Brunch vegetale gourmet con buffet di dolci, avocado toast, tofu scramble,
+                        açai bowl, spremuta e cappuccino.  
+                        Un modo dolce e nutriente di iniziare la domenica.
                     </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare il Brunch Domenicale" class="book-button">
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare il Brunch by Amasia del 7 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-header">
+                        <div class="event-date">7<br>Dom</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Yoga Flow con Cucina a Vista</h3>
+                            <div class="event-instructor">con Naty Shteiner &amp; Amasia</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">10:30 – 11:30 + brunch</span>
+                        <span class="meta-badge">20€ pratica yoga</span>
+                    </div>
+                    <div class="event-description">
+                        Una lezione di Yoga Flow nella calma dell’inverno mentre il brunch prende forma in cucina.
+                        Due forme di presenza e meditazione che si intrecciano in un’unica esperienza.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Yoga Flow con Cucina a Vista del 7 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <!-- 8 DICEMBRE -->
+                <div class="event-card special-event">
+                    <div class="event-header">
+                        <div class="event-date">8<br>Lun</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Radici d'Inverno</h3>
+                            <div class="event-instructor">Cena by Amasia</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">Dalle 20:00</span>
+                        <span class="meta-badge">55€</span>
+                        <span class="meta-badge">Su prenotazione</span>
+                    </div>
+                    <div class="event-description">
+                        Cena dedicata ai sapori profondi e caldi dell’inverno: radici, verdure di stagione
+                        e piatti che scaldano il cuore, tra tradizione e cucina vegetale gourmet.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare la cena Radici d'Inverno dell'8 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <div class="event-card recurring-event">
+                    <div class="event-header">
+                        <div class="event-date">8<br>Lun</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Corso di Ceramica · Edizione di Natale</h3>
+                            <div class="event-instructor">con Linda Bianchi Cervini</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">15:00 – 18:00</span>
+                        <span class="meta-badge">40€</span>
+                        <span class="meta-badge">Materiali inclusi</span>
+                    </div>
+                    <div class="event-description">
+                        Edizione speciale natalizia del corso di ceramica per realizzare piccoli oggetti e decorazioni a tema:
+                        un modo per portare la magia del fatto a mano nelle tue feste.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare il Corso di Ceramica di Natale dell'8 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <!-- 10 DICEMBRE -->
+                <div class="event-card">
+                    <div class="event-header">
+                        <div class="event-date">10<br>Mer</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Sciamanesimo Contemporaneo · Incontro 2 di 3</h3>
+                            <div class="event-instructor">con Beatrice Reglieri</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">18:30 – 20:30</span>
+                        <span class="meta-badge">35€</span>
+                    </div>
+                    <div class="event-description">
+                        Viaggio sciamanico per incontrare il tuo animale guida e riconnetterti alla Madre Terra
+                        attraverso rituali di restituzione dei doni. Secondo incontro di un percorso in tre tappe.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Sciamanesimo Contemporaneo del 10 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <!-- 12 DICEMBRE -->
+                <div class="event-card">
+                    <div class="event-header">
+                        <div class="event-date">12<br>Ven</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Presentazione libro “Il miracolo sei tu”</h3>
+                            <div class="event-instructor">con Lia Miro</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">17:00 – 18:00</span>
+                        <span class="meta-badge">Ingresso libero</span>
+                    </div>
+                    <div class="event-description">
+                        Presentazione del libro “Il miracolo sei tu: Danza con la vita”.
+                        Un incontro per scoprire come danza e movimento possano diventare strumenti
+                        di trasformazione personale e crescita spirituale.
+                    </div>
+                </div>
+
+                <!-- 13 DICEMBRE -->
+                <div class="event-card special-event">
+                    <div class="event-header">
+                        <div class="event-date">13<br>Sab</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Dal Respiro all'Ascolto di Sé</h3>
+                            <div class="event-instructor">con Daniele Boldrini</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">9:00 – 13:00</span>
+                        <span class="meta-badge">110€</span>
+                        <span class="meta-badge">Seminario intensivo</span>
+                    </div>
+                    <div class="event-description">
+                        Mattinata dedicata alla consapevolezza attraverso meditazione e movimenti dell’ascolto interno,
+                        per connetterti ai messaggi del corpo e alle tue sensazioni più profonde.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Dal Respiro all'Ascolto di Sé del 13 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-header">
+                        <div class="event-date">13<br>Sab</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Canto dell'Anima</h3>
+                            <div class="event-instructor">con Andrea Parigi</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">15:00 – 17:00</span>
+                        <span class="meta-badge">45€</span>
+                    </div>
+                    <div class="event-description">
+                        Cerchio sonoro evocativo e sciamanico che armonizza le frequenze interiori.
+                        Ogni persona riceverà un canto di protezione e benedizione con il messaggio che porta.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Canto dell'Anima del 13 dicembre"
+                       class="book-button">
                         Prenota Ora
                     </a>
                 </div>
 
                 <div class="event-card special-event">
                     <div class="event-header">
-                        <div class="event-date">29<br>Sab</div>
+                        <div class="event-date">13<br>Sab</div>
                         <div class="event-info">
-                            <h3 class="event-title"> PolpetTIAMO</h3>
-                            <div class="event-instructor">Cena per gli amanti delle polpette .. VEGETALI!</div>
+                            <h3 class="event-title">Lasagne · Serata Musicale</h3>
+                            <div class="event-instructor">Libra</div>
                         </div>
                     </div>
                     <div class="event-meta">
-                        <span class="meta-badge">Dalle ore 20:00</span>
-                        <span class="meta-badge">50€ (Bevande incluse)</span>
-                        <span class="meta-badge">🧆🎶 Polpette vino e musica dal vivo </span>
+                        <span class="meta-badge">Dalle 20:00</span>
+                        <span class="meta-badge">45€</span>
+                        <span class="meta-badge">Cena + musica dal vivo</span>
                     </div>
                     <div class="event-description">
-                        Una cena dedicata agli amanti delle polpette in tutte le loro forme, accompagnata da musica dal vivo per un'esperienza completa di gusto e intrattenimento.
-Le nostre tre varianti:
-
-Falafel serviti con maionese vegetale
-Polpette di ricotta e funghi accompagnate da crema di carote al rosmarino
-Polpettine classiche al pomodoro con purè cremoso
-
-Per concludere: Panettone artigianale Amasia
-L'esperienza include:
-
-Degustazione di 3 calici selezionati da aziende vinicole locali, abbinati alle portate
-Acqua
-Musica dal vivo per tutta la serata
-                        
+                        Tre portate di lasagne in tre versioni vegetali, accompagnate da musica dal vivo
+                        per una serata conviviale e calda.
                     </div>
-                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei maggiori informazioni sulla serata Polpette, vino e muscia" class="book-button">
-                        Maggiori Info
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Lasagne - Serata Musicale del 13 dicembre"
+                       class="book-button">
+                        Prenota Ora
                     </a>
                 </div>
+
+                <!-- 14 DICEMBRE -->
+                <div class="event-card special-event">
+                    <div class="event-header">
+                        <div class="event-date">14<br>Dom</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Wim Hof Method · Fundamentals Workshop</h3>
+                            <div class="event-instructor">con Andrea Bianchi</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">9:00 – 15:00</span>
+                        <span class="meta-badge">99€</span>
+                        <span class="meta-badge">Max 30 partecipanti</span>
+                    </div>
+                    <div class="event-description">
+                        Workshop intensivo sui tre pilastri del Metodo Wim Hof: respirazione, esposizione al freddo
+                        e forza mentale.  
+                        Teoria, pratica, bagno ghiacciato facoltativo e brunch vegano.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Wim Hof Method del 14 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <!-- 15 DICEMBRE -->
+                <div class="event-card">
+                    <div class="event-header">
+                        <div class="event-date">15<br>Lun</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Incontri di Buona Alimentazione · 3° incontro</h3>
+                            <div class="event-instructor">con Dott.ssa Francesca Ciuffi</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">18:00 – 20:00</span>
+                        <span class="meta-badge">25€</span>
+                    </div>
+                    <div class="event-description">
+                        Terzo appuntamento dedicato al microbiota intestinale come mattone essenziale del benessere.  
+                        Un percorso in 8 incontri mensili per trasformare il tuo rapporto con il cibo.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare il 3° Incontro di Buona Alimentazione del 15 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <!-- 20 DICEMBRE -->
+                <div class="event-card recurring-event">
+                    <div class="event-header">
+                        <div class="event-date">20<br>Sab</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Disegno dal Vero con Modella</h3>
+                            <div class="event-instructor">con Maria Fontana</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">16:00 – 18:00</span>
+                        <span class="meta-badge">10€</span>
+                    </div>
+                    <div class="event-description">
+                        Pomeriggio dedicato al disegno dal vero con modella dal vivo,
+                        per esercitare lo sguardo, la tecnica e lasciarsi ispirare dall’atmosfera creativa di Libra.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare Disegno dal Vero con Modella del 20 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <!-- 21 DICEMBRE -->
+                <div class="event-card special-event">
+                    <div class="event-header">
+                        <div class="event-date">21<br>Dom</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Brunch by Amasia</h3>
+                            <div class="event-instructor">Amasia</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">11:00 – 15:00</span>
+                        <span class="meta-badge">35€</span>
+                        <span class="meta-badge">Su prenotazione</span>
+                    </div>
+                    <div class="event-description">
+                        Buffet di dolci, avocado toast, tofu scramble, açai bowl, spremuta e cappuccino
+                        per una domenica all’insegna del benessere e del gusto.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare il Brunch by Amasia del 21 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-header">
+                        <div class="event-date">21<br>Dom</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Incontro di Psicofonia</h3>
+                            <div class="event-instructor">conduttore da definire</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">17:30 – 19:30</span>
+                        <span class="meta-badge">30€</span>
+                    </div>
+                    <div class="event-description">
+                        Esplora la tua voce come chiave di lettura e riequilibrio interiore.
+                        Un viaggio attraverso canto, risonanza e vibrazione per ritrovare armonia psico‑fisica.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare l'Incontro di Psicofonia del 21 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <!-- 28 DICEMBRE -->
+                <div class="event-card recurring-event">
+                    <div class="event-header">
+                        <div class="event-date">28<br>Dom</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Laboratorio di Arteterapia</h3>
+                            <div class="event-instructor">con Ilaria Marracci</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">10:30 – 11:30</span>
+                        <span class="meta-badge">15€</span>
+                    </div>
+                    <div class="event-description">
+                        Uno spazio per fermarsi, respirare e decomprimere attraverso il fare creativo.
+                        Nessuna competenza artistica richiesta, solo voglia di sperimentare.  
+                        Il bar di Libra è aperto per la colazione.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare il Laboratorio di Arteterapia del 28 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <div class="event-card special-event">
+                    <div class="event-header">
+                        <div class="event-date">28<br>Dom</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Degustazione Pan di Luna</h3>
+                            <div class="event-instructor">Pan di Luna</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">15:30 – 17:30</span>
+                        <span class="meta-badge">15€</span>
+                    </div>
+                    <div class="event-description">
+                        L'ultima occasione del mese per gustare il Panettone 100% vegetale PanDiLuna
+                        con cioccolata calda, in una merenda natalizia che scalda il cuore.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare la Degustazione Pan di Luna del 28 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
+                <div class="event-card special-event">
+                    <div class="event-header">
+                        <div class="event-date">28<br>Dom</div>
+                        <div class="event-info">
+                            <h3 class="event-title">Corso di Panificazione</h3>
+                            <div class="event-instructor">con Andrea Rossi</div>
+                        </div>
+                    </div>
+                    <div class="event-meta">
+                        <span class="meta-badge">16:00 – 19:00</span>
+                        <span class="meta-badge">50€</span>
+                        <span class="meta-badge">Materiali inclusi</span>
+                    </div>
+                    <div class="event-description">
+                        Corso pratico di panificazione artigianale: lievitazioni, impasti e pane fragrante
+                        da portare a casa insieme alle competenze per continuare a sfornare.
+                    </div>
+                    <a href="https://wa.me/393491408666?text=Ciao! Vorrei prenotare il Corso di Panificazione del 28 dicembre"
+                       class="book-button">
+                        Prenota Ora
+                    </a>
+                </div>
+
             </div>
         </section>
 
-        <div class="calendar-section">
-            <h3 class="calendar-title">Novembre 2025</h3>
-            <div class="calendar-grid">
-                <div class="calendar-header">Lun</div>
-                <div class="calendar-header">Mar</div>
-                <div class="calendar-header">Mer</div>
-                <div class="calendar-header">Gio</div>
-                <div class="calendar-header">Ven</div>
-                <div class="calendar-header">Sab</div>
-                <div class="calendar-header">Dom</div>
-                
-                <div class="calendar-day other-month">27</div>
-                <div class="calendar-day other-month">28</div>
-                <div class="calendar-day other-month">29</div>
-                <div class="calendar-day other-month">30</div>
-                <div class="calendar-day other-month">31</div>
-                <div class="calendar-day">1</div>
-                <div class="calendar-day has-recurring">2</div>
-                
-                <div class="calendar-day has-recurring">3</div>
-                <div class="calendar-day">4</div>
-                <div class="calendar-day has-recurring">5</div>
-                <div class="calendar-day">6</div>
-                <div class="calendar-day has-event">7</div>
-                <div class="calendar-day has-event">8</div>
-                <div class="calendar-day has-recurring">9</div>
-                
-                <div class="calendar-day has-recurring">10</div>
-                <div class="calendar-day">11</div>
-                <div class="calendar-day has-event">12</div>
-                <div class="calendar-day">13</div>
-                <div class="calendar-day has-event">14</div>
-                <div class="calendar-day has-event">15</div>
-                <div class="calendar-day has-event">16</div>
-                
-                <div class="calendar-day has-event">17</div>
-                <div class="calendar-day">18</div>
-                <div class="calendar-day has-recurring">19</div>
-                <div class="calendar-day">20</div>
-                <div class="calendar-day has-event">21</div>
-                <div class="calendar-day has-event">22</div>
-                <div class="calendar-day has-recurring">23</div>
-                
-                <div class="calendar-day has-recurring">24</div>
-                <div class="calendar-day">25</div>
-                <div class="calendar-day has-recurring">26</div>
-                <div class="calendar-day">27</div>
-                <div class="calendar-day has-event">28</div>
-                <div class="calendar-day has-event">29</div>
-                <div class="calendar-day has-event">30</div>
-            </div>
-            
-            <div class="calendar-legend">
-                <div class="legend-item">
-                    <div class="legend-dot recurring"></div>
-                    <span>Eventi Settimanali</span>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-dot event"></div>
-                    <span>Eventi Speciali</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="section" id="mappa">
+        <!-- MAPPA / CONTATTI (copiata da novembre, puoi adattare) -->
+        <section class="section" id="mappa">
             <div class="map-section">
                 <h3 class="map-title">Come Raggiungerci</h3>
                 <div class="map-info">
                     <div class="location-details">
                         <h4>Indirizzo</h4>
                         <p><strong>Via Santa Maria 33</strong><br>Pietrasanta, Lucca (LU), Italy</p>
-                        
+
                         <h4>Contatti</h4>
-                        <p><strong>WhatsApp:</strong> +39 349 140 8666<br>
-                        <strong>Email:</strong> librapietrasanta@gmail.com<br>
-                        <strong>Instagram:</strong> @librapietrasanta</p>
-                        
+                        <p>
+                            <strong>WhatsApp:</strong> +39 349 140 8666<br>
+                            <strong>Email:</strong> librapietrasanta@gmail.com<br>
+                            <strong>Instagram:</strong> @librapietrasanta
+                        </p>
+
                         <h4>Note</h4>
-                        <p>Nel centro storico di Pietrasanta, facilmente raggiungibile a piedi dalla stazione. Parcheggi disponibili nelle vicinanze del centro.</p>
+                        <p>
+                            Nel centro storico di Pietrasanta, facilmente raggiungibile a piedi dalla stazione.
+                            Parcheggi disponibili nelle vicinanze.
+                        </p>
                     </div>
-                    
+
                     <div class="map-embed">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.4!2d10.2289!3d43.9596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4f0c8f5e9c123%3A0x1a2b3c4d5e6f7890!2sVia%20Santa%20Maria%2C%20Pietrasanta%20LU%2C%20Italy!5e0!3m2!1sit!2sit!4v1693234567890" 
-                            width="100%" 
-                            height="300" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy" 
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.4!2d10.2289!3d43.9596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4f0c8f5e9c123%3A0x1a2b3c4d5e6f7890!2sVia%20Santa%20Maria%2C%20Pietrasanta%20LU%2C%20Italy!5e0!3m2!1sit!2sit!4v1693234567890"
+                            width="100%"
+                            height="300"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
+        <!-- FOOTER (stesso del novembre) -->
         <footer class="footer">
             <div class="footer-content">
                 <div class="footer-grid">
@@ -1841,12 +1649,11 @@ Musica dal vivo per tutta la serata
                         <ul>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#welcome">Chi Siamo</a></li>
-                            <li><a href="#settimanali">Eventi Settimanali</a></li>
-                            <li><a href="#mensili">Eventi Mensili</a></li>
+                            <li><a href="#mensili">Eventi Dicembre</a></li>
                             <li><a href="#mappa">Contatti</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="footer-section">
                         <h3>Contatti</h3>
                         <p style="color: #EAE4CE; line-height: 1.8;">
@@ -1856,17 +1663,20 @@ Musica dal vivo per tutta la serata
                             <a href="mailto:librapietrasanta@gmail.com">librapietrasanta@gmail.com</a>
                         </p>
                         <div class="social-links">
+                            <!-- Instagram -->
                             <a href="https://www.instagram.com/librapietrasanta" target="_blank" class="social-link">
                                 <svg viewBox="0 0 24 24">
                                     <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.405a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
                                 </svg>
                             </a>
+                            <!-- WhatsApp -->
                             <a href="https://wa.me/393491408666" target="_blank" class="social-link">
                                 <svg viewBox="0 0 24 24">
                                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.149-.67.149-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
                                     <path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.539c-.103.348.257.691.605.588l4.715-1.394A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.642-.5-5.168-1.361l-3.638 1.075 1.091-3.56A9.962 9.962 0 0 1 2 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/>
                                 </svg>
                             </a>
+                            <!-- Email -->
                             <a href="mailto:librapietrasanta@gmail.com" class="social-link">
                                 <svg viewBox="0 0 24 24">
                                     <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
@@ -1874,34 +1684,31 @@ Musica dal vivo per tutta la serata
                             </a>
                         </div>
                     </div>
-                    
+
                     <div class="footer-section">
                         <h3>Orari</h3>
                         <p style="color: #EAE4CE; line-height: 1.8;">
                             <strong>Eventi su prenotazione</strong><br>
-                            Lunedì - Domenica<br>
-                            <br>
+                            Lunedì - Domenica<br><br>
                             Prenotazione obbligatoria<br>
                             con 48 ore di anticipo
                         </p>
                     </div>
-                    
+
                     <div class="footer-section">
                         <h3>Resta Aggiornato</h3>
-                        <p style="color: #EAE4CE; margin-bottom: 20px;">
-                            Unisciti al nostro canale Telegram per ricevere aggiornamenti settimanali sugli eventi
+                        <p style="color: #EAE4CE; margin-bottom: 16px;">
+                            Unisciti al nostro canale Telegram per ricevere aggiornamenti settimanali sugli eventi.
                         </p>
-                        <a href="https://t.me/+ZI55kD1rIlM0MTBk" 
+                        <a href="https://t.me/+ZI55kD1rIlM0MTBk"
                            target="_blank"
-                           class="book-button" style="background: #0088cc; padding: 12px 25px; font-size: 14px; display: inline-flex; align-items: center; gap: 10px;">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
-                                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.223-.548.223l.188-2.85 5.18-4.68c.223-.198-.054-.308-.346-.111l-6.4 4.02-2.76-.918c-.6-.187-.612-.6.125-.89l10.782-4.156c.5-.18.94.12.78.88z"/>
-                            </svg>
+                           class="book-button"
+                           style="background:#0088cc;padding:11px 22px;font-size:14px;">
                             Unisciti al Canale
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="footer-bottom">
                     <p>&copy; 2025 Libra Terra Creativa. Tutti i diritti riservati. | Via Santa Maria 33, Pietrasanta</p>
                 </div>
@@ -1909,9 +1716,9 @@ Musica dal vivo per tutta la serata
         </footer>
     </div>
 
-    <!-- BOTTONE WHATSAPP (in basso a destra) -->
-    <a href="https://wa.me/393491408666?text=Ciao! Ho una domanda su Libra Terra Creativa" 
-       class="whatsapp-float" 
+    <!-- BOTTONI FISSI -->
+    <a href="https://wa.me/393491408666?text=Ciao! Ho una domanda sugli eventi di dicembre"
+       class="whatsapp-float"
        target="_blank"
        aria-label="Contattaci su WhatsApp">
         <svg viewBox="0 0 24 24">
@@ -1920,25 +1727,24 @@ Musica dal vivo per tutta la serata
         </svg>
     </a>
 
-    <!-- BOTTONE PRENOTAZIONE (in basso al centro) -->
     <div class="booking-section">
         <button class="booking-toggle" id="bookingToggleBtn">
             Prenota Attività
         </button>
     </div>
 
-    <!-- MODAL FORM PRENOTAZIONE -->
+    <!-- MODAL PRENOTAZIONE -->
     <div class="booking-form-container" id="bookingFormContainer">
         <form class="booking-form" id="bookingForm">
             <button type="button" class="close-form" id="closeFormBtn">&times;</button>
-            
+
             <div class="form-header">
-                <h3>Prenota i Tuoi Eventi</h3>
-                <p style="color: #4B5031; opacity: 0.8;">Seleziona uno o più eventi e compila i dati</p>
+                <h3>Prenota i Tuoi Eventi di Dicembre</h3>
+                <p style="color:#4B5031;opacity:0.8;">Seleziona uno o più eventi e compila i tuoi dati</p>
             </div>
 
             <div class="promo-badge">
-                🎉 Prenota 3 o più eventi e ricevi il 10% di sconto!
+                🎉 Prenota 3 o più eventi di dicembre e ricevi il 10% di sconto!
             </div>
 
             <div id="formMessage"></div>
@@ -1975,143 +1781,45 @@ Musica dal vivo per tutta la serata
         </form>
     </div>
 
+    <!-- SCRIPT EMAILJS + LOGICA FORM (stessa struttura di novembre, ma con eventsData di dicembre) -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script>
-// Eventi ordinati cronologicamente - NOVEMBRE 2025
-const eventsData = [
-    {
-        id: 'evt_fermentazione3',
-        date: 7,
-        title: '🫙 Corso di Fermentazione - Lezione 3',
-        meta: '7 Novembre 18:00-20:30 • 50€ • con Andrea Rossi',
-        value: 'Corso di Fermentazione Lez. 3 - 7 Novembre 18:00-20:30 (50€)'
-    },
-    {
-        id: 'evt_costellazioni',
-        date: 8,
-        title: '🌸 Costellazioni - Il Mito della Madre',
-        meta: '8 Novembre 10:00-18:00 • 100€ • con Rosita Spariglia',
-        value: 'Costellazioni - Il Mito della Madre - 8 Novembre 10:00-18:00 (100€)'
-    },
-    {
-        id: 'evt_sciamanesimo1',
-        date: 12,
-        title: '🔥 Sciamanesimo Contemporaneo - 1° Lezione',
-        meta: '12 Novembre 18:00-20:30 • 35€ • con Beatrice Reglieri',
-        value: 'Sciamanesimo Contemporaneo 1° Lez - 12 Novembre 18:00-20:30 (35€)'
-    },
-    {
-        id: 'evt_fermentazione4',
-        date: 14,
-        title: '🫙 Corso di Fermentazione - Lezione 4',
-        meta: '14 Novembre 18:00-20:30 • 50€ • con Andrea Rossi',
-        value: 'Corso di Fermentazione Lez. 4 - 14 Novembre 18:00-20:30 (50€)'
-    },
-    {
-        id: 'evt_panettone',
-        date: 15,
-        title: '🎄 Panettone Day',
-        meta: '15 Novembre 16:30-19:30 • 10€ • by Amasia x Belsian',
-        value: 'Panettone Day - 15 Novembre 16:30-19:30 (10€)'
-    },
-    {
-        id: 'evt_lasagne',
-        date: 15,
-        title: '🌱 La Lasagna in Tutte le Salse',
-        meta: '15 Novembre ore 21:00 • 50€ • Cena by Amasia',
-        value: 'Cena Lasagne Veg - 15 Novembre ore 21:00 (50€)'
-    },
-    {
-        id: 'evt_wimhof',
-        date: 16,
-        title: '❄️ Wim Hof Method',
-        meta: '16 Novembre 9:00-15:00 • 99€ • con Andrea Bianchi',
-        value: 'Wim Hof Method - 16 Novembre 9:00-15:00 (99€)'
-    },
-    {
-        id: 'evt_psicofonia',
-        date: 16,
-        title: '🎵 Incontro di Psicofonia',
-        meta: '16 Novembre 16:00-19:30 • 30€ • con Lorella Lenoci & Michela Manara',
-        value: 'Psicofonia - 16 Novembre 16:00-19:30 (30€)'
-    },
-    {
-        id: 'evt_alimentazione',
-        date: 17,
-        title: '🥗 Lezioni di Buona Alimentazione',
-        meta: '17 Novembre 18:00-20:00 • 25€ • con Dott.ssa Francesca Ciuffi',
-        value: 'Lezioni Buona Alimentazione - 17 Novembre 18:00-20:00 (25€)'
-    },
-    {
-        id: 'evt_fermentazione5',
-        date: 21,
-        title: '🫙 Corso di Fermentazione - Lezione 5',
-        meta: '21 Novembre 18:00-20:30 • 50€ • con Andrea Rossi',
-        value: 'Corso di Fermentazione Lez. 5 - 21 Novembre 18:00-20:30 (50€)'
-    },
-    {
-        id: 'evt_sonic',
-        date: 22,
-        title: '🔔 Sonic Breathing',
-        meta: '22 Novembre 11:00-12:30 • 30€ • con Benedetta Pisani & Lisa Zini',
-        value: 'Sonic Breathing - 22 Novembre 11:00-12:30 (30€)'
-    },
-    {
-        id: 'evt_fotografia',
-        date: 29,
-        title: '📸 Chi Sei... Quando Nessuno Ti Guarda?',
-        meta: '29 Novembre 15:30-17:30 • 30€ • con Silvia Previtera',
-        value: 'Laboratorio Fotografia - 29 Novembre 15:30-17:30 (30€)'
-    },
-    {
-        id: 'evt_zuppa',
-        date: 30,
-        title: '📖 Zuppa e Racconti',
-        meta: '30 Novembre ore 21:00 • 40€ • Cena Letteraria by Amasia',
-        value: 'Zuppa e Racconti - 30 Novembre ore 21:00 (40€)'
-    }
-];
-// Eventi settimanali (non hanno data specifica) - NOVEMBRE 2025
-const weeklyEvents = [
-    {
-        id: 'evt_terapeutico',
-        title: '💪 Esercizio Terapeutico Personalizzato',
-        meta: 'Lun-Sab su appuntamento • 50€/h individuale o 25€/h coppia • con Simone',
-        value: 'Esercizio Terapeutico Personalizzato - con Simone (50€/h individuale)'
-    },
-    {
-        id: 'evt_yoga_ptym',
-        title: '🧘‍♀️ Yoga con Silvia',
-        meta: 'Lunedì 18:00 • 15€ • con Silvia (sessione inclusiva)',
-        value: 'Yoga PTYM - Lunedì 18:00 con Silvia (15€)'
-    },
-    {
-        id: 'evt_pilates',
-        title: '🤸‍♀️ Pilates',
-        meta: 'Mercoledì 13:30-14:30 • 15€ • con Francesca Parrini',
-        value: 'Pilates - Mercoledì 13:30-14:30 (15€)'
-    },
-    {
-        id: 'evt_yoga_naty',
-        title: '🧘 Yoga',
-        meta: 'Giovedi 12:00-13:00 • 20€ • con Naty',
-        value: 'Yoga - Giovedi 12:00-13:00 con Naty (20€)'
-    },
-    {
-        id: 'evt_ceramica',
-        title: '🏺 Corso di Ceramica',
-        meta: 'Domenica 11:00-14:00 • 40€ • con Linda Bianchi Cervini',
-        value: 'Corso di Ceramica - Domenica con Linda Bianchi (40€)'
-    },
-    {
-        id: 'evt_brunch',
-        title: '🍃 Brunch Domenicale',
-        meta: 'Domenica 11:00-15:00 • 30€ • by Amasia (buffet vegetale)',
-        value: 'Brunch Domenicale - Domenica 11:00-15:00 by Amasia (25€)'
-    }
-];
-      
-        // Smooth scroll  
+        // Eventi Dicembre 2025 – per il form di prenotazione
+        const eventsData = [
+            { id: 'dic_disegno_colazione', date: 6, title: 'Disegno dal Vero & Colazione con Modella', meta: '6 dicembre · 10:30-13:00 · 10€ · con Maria Fontana', value: 'Disegno dal Vero & Colazione con Modella · 6/12 · 10:30-13:00 (10€)' },
+            { id: 'dic_centro_tavola', date: 6, title: 'Centro Tavola Natalizio', meta: '6 dicembre · dalle 15:30 · 45€ (+5€ degustazione) · Galleria Bellina', value: 'Centro Tavola Natalizio · 6/12 · dalle 15:30 (45€ + 5€ opz.)' },
+            { id: 'dic_in_contatto', date: 6, title: 'IN CON-TATTO', meta: '6 dicembre · tre turni 9-36 mesi · 10€ · con Ilaria Marracci', value: 'IN CON-TATTO · 6/12 · 3 turni 9–36 mesi (10€)' },
+            { id: 'dic_degustazione_pan', date: 6, title: 'Degustazione Pan di Luna', meta: '6 dicembre · 15:30-17:30 · 15€ · Pan di Luna', value: 'Degustazione Pan di Luna · 6/12 · 15:30-17:30 (15€)' },
+            { id: 'dic_numerologia', date: 6, title: 'Numerologia per l\'Anima', meta: '6 dicembre · 16:00-18:00 · 25€ · con Tania Giannecchini', value: 'Numerologia per l\'Anima · 6/12 · 16:00-18:00 (25€)' },
+
+            { id: 'dic_brunch_7', date: 7, title: 'Brunch by Amasia', meta: '7 dicembre · 11:00-15:00 · 35€ · Amasia', value: 'Brunch by Amasia · 7/12 · 11:00-15:00 (35€)' },
+            { id: 'dic_yoga_cucina', date: 7, title: 'Yoga Flow con Cucina a Vista', meta: '7 dicembre · 10:30-11:30 + brunch · 20€ pratica yoga', value: 'Yoga Flow con Cucina a Vista · 7/12 · 10:30-11:30 (20€)' },
+
+            { id: 'dic_radici', date: 8, title: 'Radici d\'Inverno', meta: '8 dicembre · dalle 20:00 · 55€ · Cena by Amasia', value: 'Radici d\'Inverno · 8/12 · dalle 20:00 (55€)' },
+            { id: 'dic_ceramica_natale', date: 8, title: 'Corso di Ceramica · Natale', meta: '8 dicembre · 15:00-18:00 · 40€ · con Linda Bianchi Cervini', value: 'Corso di Ceramica Natale · 8/12 · 15:00-18:00 (40€)' },
+
+            { id: 'dic_sciamanesimo2', date: 10, title: 'Sciamanesimo Contemporaneo · Incontro 2 di 3', meta: '10 dicembre · 18:30-20:30 · 35€ · con Beatrice Reglieri', value: 'Sciamanesimo Contemporaneo 2/3 · 10/12 · 18:30-20:30 (35€)' },
+
+            { id: 'dic_libro_miro', date: 12, title: 'Presentazione libro “Il miracolo sei tu”', meta: '12 dicembre · 17:00-18:00 · ingresso libero · con Lia Miro', value: 'Presentazione libro · 12/12 · 17:00-18:00 (ingresso libero)' },
+
+            { id: 'dic_respiro', date: 13, title: 'Dal Respiro all\'Ascolto di Sé', meta: '13 dicembre · 9:00-13:00 · 110€ · con Daniele Boldrini', value: 'Dal Respiro all\'Ascolto di Sé · 13/12 · 9:00-13:00 (110€)' },
+            { id: 'dic_canto_anima', date: 13, title: 'Canto dell\'Anima', meta: '13 dicembre · 15:00-17:00 · 45€ · con Andrea Parigi', value: 'Canto dell\'Anima · 13/12 · 15:00-17:00 (45€)' },
+            { id: 'dic_lasagne', date: 13, title: 'Lasagne · Serata Musicale', meta: '13 dicembre · dalle 20:00 · 45€ · Libra', value: 'Lasagne · Serata Musicale · 13/12 · dalle 20:00 (45€)' },
+
+            { id: 'dic_wimhof', date: 14, title: 'Wim Hof Method · Fundamentals', meta: '14 dicembre · 9:00-15:00 · 99€ · con Andrea Bianchi', value: 'Wim Hof Method Fundamentals · 14/12 · 9:00-15:00 (99€)' },
+
+            { id: 'dic_alimentazione3', date: 15, title: 'Incontri di Buona Alimentazione · 3°', meta: '15 dicembre · 18:00-20:00 · 25€ · con Dott.ssa Francesca Ciuffi', value: 'Buona Alimentazione 3° incontro · 15/12 · 18:00-20:00 (25€)' },
+
+            { id: 'dic_disegno_20', date: 20, title: 'Disegno dal Vero con Modella', meta: '20 dicembre · 16:00-18:00 · 10€ · con Maria Fontana', value: 'Disegno dal Vero con Modella · 20/12 · 16:00-18:00 (10€)' },
+
+            { id: 'dic_brunch_21', date: 21, title: 'Brunch by Amasia', meta: '21 dicembre · 11:00-15:00 · 35€ · Amasia', value: 'Brunch by Amasia · 21/12 · 11:00-15:00 (35€)' },
+            { id: 'dic_psicofonia21', date: 21, title: 'Incontro di Psicofonia', meta: '21 dicembre · 17:30-19:30 · 30€', value: 'Incontro di Psicofonia · 21/12 · 17:30-19:30 (30€)' },
+
+            { id: 'dic_arteterapia', date: 28, title: 'Laboratorio di Arteterapia', meta: '28 dicembre · 10:30-11:30 · 15€ · con Ilaria Marracci', value: 'Laboratorio di Arteterapia · 28/12 · 10:30-11:30 (15€)' },
+            { id: 'dic_deg_pan_28', date: 28, title: 'Degustazione Pan di Luna', meta: '28 dicembre · 15:30-17:30 · 15€ · Pan di Luna', value: 'Degustazione Pan di Luna · 28/12 · 15:30-17:30 (15€)' },
+            { id: 'dic_panificazione', date: 28, title: 'Corso di Panificazione', meta: '28 dicembre · 16:00-19:00 · 50€ · con Andrea Rossi', value: 'Corso di Panificazione · 28/12 · 16:00-19:00 (50€)' },
+        ];
+
         function scrollToSection(sectionId) {
             const section = document.getElementById(sectionId);
             if (section) {
@@ -2119,16 +1827,17 @@ const weeklyEvents = [
             }
         }
 
-        document.addEventListener('DOMContentLoaded', function() {
-            // Progress Bar
-            window.addEventListener('scroll', function() {
-                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                const scrolled = (winScroll / height) * 100;
-                document.getElementById('progressBar').style.width = scrolled + '%';
-            });
+        function toggleMobileMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+        }
 
-            // Navigation scroll effect
+        function closeMobileMenu() {
+            document.getElementById('mobileNav').classList.remove('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Nav scroll effect
             window.addEventListener('scroll', function() {
                 const nav = document.getElementById('mainNav');
                 if (window.scrollY > 50) {
@@ -2138,26 +1847,24 @@ const weeklyEvents = [
                 }
             });
 
-            // Parallax effect for hero
+            // Parallax hero
             window.addEventListener('scroll', function() {
                 const scrolled = window.pageYOffset;
                 const heroContent = document.querySelector('.hero-content');
                 if (heroContent && scrolled < window.innerHeight) {
-                    heroContent.style.transform = `translateY(${scrolled * 0.5}px)`;
-                    heroContent.style.opacity = 1 - (scrolled / window.innerHeight * 0.5);
+                    heroContent.style.transform = `translateY(${scrolled * 0.4}px)`;
+                    heroContent.style.opacity = 1 - (scrolled / window.innerHeight * 0.4);
                 }
             });
 
-            // Initialize EmailJS
+            // EmailJS init (mantieni le tue chiavi)
             emailjs.init("3LZyp-vRsblaN_zcY");
-            
-            // Popola gli eventi nel form in ordine cronologico
+
             function populateEventsInForm() {
                 const eventsSelection = document.getElementById('eventsSelection');
-                const eventsHTML = eventsSelection.querySelector('h4').outerHTML;
-                
-                // Aggiungi prima gli eventi mensili in ordine cronologico
+                const headerHTML = eventsSelection.querySelector('h4').outerHTML;
                 let eventCheckboxes = '';
+
                 eventsData.forEach(event => {
                     eventCheckboxes += `
                         <div class="event-checkbox">
@@ -2169,27 +1876,12 @@ const weeklyEvents = [
                         </div>
                     `;
                 });
-                
-                // Poi aggiungi gli eventi settimanali
-                eventCheckboxes += '<h4 style="margin-top: 20px; margin-bottom: 15px;">Eventi Settimanali:</h4>';
-                weeklyEvents.forEach(event => {
-                    eventCheckboxes += `
-                        <div class="event-checkbox">
-                            <input type="checkbox" id="${event.id}" name="selected_events" value="${event.value}">
-                            <div class="event-info-small">
-                                <div class="event-title-small">${event.title}</div>
-                                <div class="event-meta-small">${event.meta}</div>
-                            </div>
-                        </div>
-                    `;
-                });
-                
-                eventsSelection.innerHTML = eventsHTML + eventCheckboxes;
+
+                eventsSelection.innerHTML = headerHTML + eventCheckboxes;
             }
-            
+
             populateEventsInForm();
-            
-            // Booking form functions
+
             function openBookingForm() {
                 document.getElementById('bookingFormContainer').classList.add('active');
                 document.body.style.overflow = 'hidden';
@@ -2207,35 +1899,29 @@ const weeklyEvents = [
                 messageDiv.innerHTML = `<div class="form-message ${type}">${message}</div>`;
             }
 
-            // Event listeners for booking form
             document.getElementById('bookingToggleBtn').addEventListener('click', openBookingForm);
             document.getElementById('closeFormBtn').addEventListener('click', closeBookingForm);
             document.getElementById('cancelFormBtn').addEventListener('click', closeBookingForm);
-            
-            // Form submission handler
+
             document.getElementById('bookingForm').addEventListener('submit', function(event) {
                 event.preventDefault();
-                
+
                 const submitBtn = document.getElementById('submitBtn');
                 const originalText = submitBtn.innerHTML;
                 submitBtn.innerHTML = 'Invio in corso...';
                 submitBtn.disabled = true;
-                
-                // Get selected events
+
                 const selectedEvents = [];
                 const checkboxes = document.querySelectorAll('input[name="selected_events"]:checked');
-                checkboxes.forEach(checkbox => {
-                    selectedEvents.push(checkbox.value);
-                });
-                
+                checkboxes.forEach(cb => selectedEvents.push(cb.value));
+
                 if (selectedEvents.length === 0) {
                     showMessage('Seleziona almeno un evento per continuare.', 'error');
                     submitBtn.innerHTML = originalText;
                     submitBtn.disabled = false;
                     return;
                 }
-                
-                // Prepare template parameters
+
                 const templateParams = {
                     user_name: document.getElementById('user_name').value,
                     user_email: document.getElementById('user_email').value,
@@ -2246,23 +1932,18 @@ const weeklyEvents = [
                     booking_date: new Date().toLocaleDateString('it-IT'),
                     booking_time: new Date().toLocaleTimeString('it-IT')
                 };
-                
-                // Send email to Libra
+
                 emailjs.send('service_epmymzx', 'template_vdmqqm3', templateParams)
-                    .then(function(response) {
-                        // Send confirmation email to customer
+                    .then(function() {
                         const confirmationParams = {
                             ...templateParams,
                             to_email: templateParams.user_email
                         };
-                        
                         return emailjs.send('service_epmymzx', 'template_fmudhsj', confirmationParams);
                     })
-                    .then(function(response) {
+                    .then(function() {
                         showMessage('Richiesta di prenotazione inviata con successo! Ti contatteremo a breve per confermare i dettagli.', 'success');
-                        setTimeout(() => {
-                            closeBookingForm();
-                        }, 2000);
+                        setTimeout(() => { closeBookingForm(); }, 2000);
                     })
                     .catch(function(error) {
                         console.error('EmailJS error:', error);
@@ -2274,60 +1955,19 @@ const weeklyEvents = [
                     });
             });
 
-            // Add smooth scrolling and active nav states
             const navLinks = document.querySelectorAll('.nav-link, .mobile-nav a');
-            
             navLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
                     const targetId = this.getAttribute('href');
                     const targetSection = document.querySelector(targetId);
-                    
                     if (targetSection) {
-                        targetSection.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
+                        targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     }
-                    
-                    // Close mobile menu if open
                     closeMobileMenu();
                 });
             });
-            
-            // Add scroll listener for nav background
-            window.addEventListener('scroll', function() {
-                const nav = document.querySelector('.nav');
-                if (window.scrollY > 100) {
-                    nav.style.background = 'rgba(234, 228, 206, 0.98)';
-                } else {
-                    nav.style.background = 'rgba(234, 228, 206, 0.95)';
-                }
-            });
         });
-
-        // Search function
-        function searchEvents(searchTerm) {
-            const events = document.querySelectorAll('.event-card');
-            const normalizedTerm = searchTerm.toLowerCase().trim();
-            
-            events.forEach(event => {
-                const title = event.querySelector('.event-title').textContent.toLowerCase();
-                const instructor = event.querySelector('.event-instructor').textContent.toLowerCase();
-                const description = event.querySelector('.event-description').textContent.toLowerCase();
-                
-                const isMatch = title.includes(normalizedTerm) || 
-                               instructor.includes(normalizedTerm) || 
-                               description.includes(normalizedTerm);
-                
-                if (isMatch || normalizedTerm === '') {
-                    event.style.display = 'block';
-                    event.style.opacity = '1';
-                } else {
-                    event.style.display = 'none';
-                }
-            });
-        }
     </script>
 </body>
 </html>
